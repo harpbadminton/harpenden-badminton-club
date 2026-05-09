@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule – Harpenden Badminton Club</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon"><i class="fas fa-shuttlecock"></i></div>
+        <div class="logo-text">
+          <span class="logo-main">Harpenden</span>
+          <span class="logo-sub">Badminton Club</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">The Club</a>
+        <a href="schedule.html" class="nav-link active">Schedule</a>
+        <a href="results.html" class="nav-link">Results</a>
+        <a href="tournaments.html" class="nav-link">Tournaments</a>
+        <a href="history.html" class="nav-link">Club History</a>
+        <a href="notices.html" class="nav-link">Notices &amp; Links</a>
+        <a href="documents.html" class="nav-link">Documents</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link dropdown-toggle">Gallery <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="gallery/2024-25.html" class="dropdown-item">2024–25</a>
+            <a href="gallery/2023-24.html" class="dropdown-item">2023–24</a>
+            <a href="gallery/2022-23.html" class="dropdown-item">2022–23</a>
+            <a href="gallery/2021-22.html" class="dropdown-item">2021–22</a>
+            <a href="gallery/2020-21.html" class="dropdown-item">2020–21</a>
+          </div>
+        </div>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-label">2024–25 Season</span>
+      <h1>Schedule &amp; Fixtures</h1>
+      <p>Upcoming league matches, club nights, and events for the current season.</p>
+    </div>
+  </section>
+
+  <!-- CLUB NIGHTS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Weekly Sessions</span>
+        <h2>Club Night</h2>
+        <p>Our club night runs every <strong>Tuesday evening</strong> at Westminster Lodge, Verulamium Park, St. Albans. All members are welcome, and guests can come along to try it out.</p>
+      </div>
+      <div class="cards-grid fade-in">
+        <div class="info-card highlight">
+          <div class="info-card-icon"><i class="fas fa-moon"></i></div>
+          <h3>Tuesday Evening</h3>
+          <p>Weekly club night open to all members. Play on 4 courts, meet fellow members, and enjoy competitive or social badminton.</p>
+          <div class="session-detail"><i class="fas fa-clock"></i> Evening — check with secretary for exact time</div>
+          <div class="session-detail"><i class="fas fa-map-marker-alt"></i> Westminster Lodge, Verulamium Park, St. Albans</div>
+        </div>
+        <div class="info-card highlight">
+          <div class="info-card-icon"><i class="fas fa-user-friends"></i></div>
+          <h3>Guest Visits</h3>
+          <p>Interested in joining? Come along on a Tuesday evening as a guest to see how you get on before committing to membership.</p>
+          <div class="session-detail"><i class="fas fa-envelope"></i> Email secretary@harpendenbadmintonclub.com first</div>
+          <div class="session-detail"><i class="fas fa-table-tennis"></i> 4 courts available</div>
+        </div>
+        <div class="info-card highlight">
+          <div class="info-card-icon"><i class="fas fa-trophy"></i></div>
+          <h3>League Matches</h3>
+          <p>Teams compete in the <strong>Hertfordshire County League</strong> and <strong>SW Herts League</strong> throughout the season (September – May).</p>
+          <div class="session-detail"><i class="fas fa-users"></i> Men's 6 &amp; 4, Ladies, Mixed</div>
+          <div class="session-detail"><i class="fas fa-calendar-alt"></i> Season: September – May</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIXTURES TABLE -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">League Fixtures</span>
+        <h2>Upcoming Matches</h2>
+        <p>All fixtures for the 2024–25 South West Herts Badminton League season.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs fade-in">
+        <button class="filter-btn active" data-filter="all">All Teams</button>
+        <button class="filter-btn" data-filter="mens">Men's</button>
+        <button class="filter-btn" data-filter="ladies">Ladies'</button>
+        <button class="filter-btn" data-filter="mixed">Mixed</button>
+      </div>
+
+      <div class="fixtures-table-wrap fade-in">
+        <table class="fixtures-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Team</th>
+              <th>Opponents</th>
+              <th>Venue</th>
+              <th>Time</th>
+              <th>H/A</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-team="mens">
+              <td><strong>12 May 2025</strong></td>
+              <td><span class="team-pill mens">Men's 6</span></td>
+              <td>TBC</td>
+              <td>Westminster Lodge, St. Albans</td>
+              <td>TBC</td>
+              <td><span class="fixture-badge home">Home</span></td>
+            </tr>
+            <tr data-team="mixed">
+              <td><strong>14 May 2025</strong></td>
+              <td><span class="team-pill mixed">Mixed</span></td>
+              <td>TBC</td>
+              <td>Away Venue</td>
+              <td>TBC</td>
+              <td><span class="fixture-badge away">Away</span></td>
+            </tr>
+            <tr data-team="ladies">
+              <td><strong>19 May 2025</strong></td>
+              <td><span class="team-pill ladies">Ladies</span></td>
+              <td>TBC</td>
+              <td>Westminster Lodge, St. Albans</td>
+              <td>TBC</td>
+              <td><span class="fixture-badge home">Home</span></td>
+            </tr>
+            <tr data-team="mens">
+              <td><strong>21 May 2025</strong></td>
+              <td><span class="team-pill mens">Men's 4</span></td>
+              <td>TBC</td>
+              <td>Away Venue</td>
+              <td>TBC</td>
+              <td><span class="fixture-badge away">Away</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-icon"><i class="fas fa-shuttlecock"></i></div>
+            <div class="logo-text">
+              <span class="logo-main" style="color:#fff">Harpenden</span>
+              <span class="logo-sub">Badminton Club</span>
+            </div>
+          </div>
+          <p>A friendly and competitive badminton club based in Harpenden, Hertfordshire.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">The Club</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="results.html">Results</a>
+            <a href="documents.html">Documents</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Gallery</h4>
+          <div class="footer-links">
+            <a href="gallery/2024-25.html">2024–25</a>
+            <a href="gallery/2023-24.html">2023–24</a>
+            <a href="gallery/2022-23.html">2022–23</a>
+            <a href="gallery/2021-22.html">2021–22</a>
+            <a href="gallery/2020-21.html">2020–21</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item"><span class="icon"><i class="fas fa-map-marker-alt"></i></span><span>Westminster Lodge, Verulamium Park, St. Albans</span></div>
+          <div class="footer-contact-item"><span class="icon"><i class="fas fa-envelope"></i></span><span>secretary@harpendenbadmintonclub.com</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Harpenden Badminton Club. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Filter tabs for fixtures table
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const tableRows = document.querySelectorAll('.fixtures-table tbody tr');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        tableRows.forEach(row => {
+          row.style.display = (filter === 'all' || row.dataset.team === filter) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

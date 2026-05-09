@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery 2023–24 – Harpenden Badminton Club</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">
+        <div class="logo-icon"><i class="fas fa-shuttlecock"></i></div>
+        <div class="logo-text"><span class="logo-main">Harpenden</span><span class="logo-sub">Badminton Club</span></div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../about.html" class="nav-link">The Club</a>
+        <a href="../schedule.html" class="nav-link">Schedule</a>
+        <a href="../results.html" class="nav-link">Results</a>
+        <a href="../tournaments.html" class="nav-link">Tournaments</a>
+        <a href="../history.html" class="nav-link">Club History</a>
+        <a href="../notices.html" class="nav-link">Notices &amp; Links</a>
+        <a href="../documents.html" class="nav-link">Documents</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link dropdown-toggle active">Gallery <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="2024-25.html" class="dropdown-item">2024–25</a>
+            <a href="2023-24.html" class="dropdown-item active">2023–24</a>
+            <a href="2022-23.html" class="dropdown-item">2022–23</a>
+            <a href="2021-22.html" class="dropdown-item">2021–22</a>
+            <a href="2020-21.html" class="dropdown-item">2020–21</a>
+          </div>
+        </div>
+        <a href="../contact.html" class="nav-link">Contact Us</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-label">Gallery</span>
+      <h1>Season 2023–24</h1>
+      <p>Photos from matches, club nights, and events during the 2023–24 season.</p>
+    </div>
+  </section>
+
+  <section class="gallery-year-nav">
+    <div class="container">
+      <div class="year-tabs">
+        <a href="2024-25.html" class="year-tab">2024–25</a>
+        <a href="2023-24.html" class="year-tab active">2023–24</a>
+        <a href="2022-23.html" class="year-tab">2022–23</a>
+        <a href="2021-22.html" class="year-tab">2021–22</a>
+        <a href="2020-21.html" class="year-tab">2020–21</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filter fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="matches">Matches</button>
+        <button class="filter-btn" data-filter="club">Club Nights</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+      </div>
+      <div class="gallery-grid fade-in">
+        <div class="gallery-item" data-category="matches"><div class="gallery-img-wrap"><div class="gallery-placeholder"><i class="fas fa-camera"></i></div><div class="gallery-overlay"><span>Men's 1st vs Berkhamsted · Apr 2024</span></div></div></div>
+        <div class="gallery-item" data-category="events"><div class="gallery-img-wrap"><div class="gallery-placeholder"><i class="fas fa-camera"></i></div><div class="gallery-overlay"><span>End of Season Presentation · May 2024</span></div></div></div>
+        <div class="gallery-item" data-category="club"><div class="gallery-img-wrap"><div class="gallery-placeholder"><i class="fas fa-camera"></i></div><div class="gallery-overlay"><span>Club Night · Feb 2024</span></div></div></div>
+        <div class="gallery-item" data-category="matches"><div class="gallery-img-wrap"><div class="gallery-placeholder"><i class="fas fa-camera"></i></div><div class="gallery-overlay"><span>Mixed 1st vs Hemel · Jan 2024</span></div></div></div>
+        <div class="gallery-item" data-category="events"><div class="gallery-img-wrap"><div class="gallery-placeholder"><i class="fas fa-camera"></i></div><div class="gallery-overlay"><span>Christmas Social · Dec 2023</span></div></div></div>
+        <div class="gallery-item" data-category="club"><div class="gallery-img-wrap"><div class="gallery-placeholder"><i class="fas fa-camera"></i></div><div class="gallery-overlay"><span>Season Opener · Sep 2023</span></div></div></div>
+      </div>
+      <div class="gallery-upload-note fade-in">
+        <i class="fas fa-info-circle"></i>
+        <p>To add photos, place image files in <code>assets/images/gallery/2023-24/</code> and update the gallery grid.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><div class="logo-icon"><i class="fas fa-shuttlecock"></i></div><div class="logo-text"><span class="logo-main" style="color:#fff">Harpenden</span><span class="logo-sub">Badminton Club</span></div></div>
+          <p>A friendly and competitive badminton club based in Harpenden, Hertfordshire.</p>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><div class="footer-links"><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../schedule.html">Schedule</a><a href="../results.html">Results</a><a href="../contact.html">Contact Us</a></div></div>
+        <div class="footer-col"><h4>Gallery Years</h4><div class="footer-links"><a href="2024-25.html">2024–25</a><a href="2023-24.html">2023–24</a><a href="2022-23.html">2022–23</a><a href="2021-22.html">2021–22</a><a href="2020-21.html">2020–21</a></div></div>
+        <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><span class="icon"><i class="fas fa-envelope"></i></span><span>secretary@harpendenbadmintonclub.com</span></div></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2025 Harpenden Badminton Club. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.gallery-item').forEach(item => {
+          item.style.display = (filter === 'all' || item.dataset.category === filter) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

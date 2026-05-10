@@ -2,11 +2,12 @@ backend:
   name: github
   repo: harpbadminton/harpenden-badminton-club
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
-# No media uploads needed for this config
 media_folder: "assets/images"
 
-site_url: https://harpbadminton.github.io/harpenden-badminton-club
+site_url: https://harpenden-badminton-club.netlify.app
 
 collections:
 

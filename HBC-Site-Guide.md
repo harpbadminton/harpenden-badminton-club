@@ -50,7 +50,7 @@ All downloadable documents live in `/assets/docs/` and are linked from the Notic
 | `swhbl-mens4-score-sheet.pdf` | SWHBL Score Sheet — Mens 4 |
 | `swhbl-mens6-score-sheet.pdf` | SWHBL Score Sheet — Mens 6 |
 | `swhbl-mixed6-score-sheet.pdf` | SWHBL Score Sheet — Mixed 6 |
-| `herts-mens6-county-score-sheet.pdf` | Herts County Score Sheet — Mens 6 |
+| `herts-mens6-county-score-sheet.pdf` | Herts County Score Sheet — Mens 6 & Mixed |
 | `swhbl-club-directory-2023-24.xlsx` | SWHBL Club Directory 2023–24 |
 
 To add a new document: copy the file into `/assets/docs/`, add a card in `notices.html`, commit and push.

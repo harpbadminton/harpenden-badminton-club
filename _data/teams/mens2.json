@@ -1,0 +1,17 @@
+{
+  "name": "Men's 2",
+  "league": "SW Herts League",
+  "division": "Division 1",
+  "captain": "Donal Kelly",
+  "champions": false,
+  "fixtures": [
+    { "date": "Thur 23 Oct 25", "opposition": "Dunstable", "start": "19:30", "venue": "Home", "result": "Lost 1–8" },
+    { "date": "Thur 4 Dec 25", "opposition": "Hadley", "start": "20:00", "venue": "The Drill Hall, 1 Old Park Avenue, Enfield EN2 6PJ", "result": "Lost 1–8" },
+    { "date": "Fri 9 Jan 26", "opposition": "Vauxhall", "start": "20:00", "venue": "Venue 360, 20 Gipsy Lane, Luton LU1 3JH", "result": "Won 7–2" },
+    { "date": "Tue 20 Jan 26", "opposition": "Gadebridge", "start": "20:00", "venue": "Queen Elizabeth School, Crawley Green Road, Luton LU2 9AG", "result": "Won 7–2" },
+    { "date": "Thur 19 Feb 26", "opposition": "Gadebridge", "start": "19:30", "venue": "Home", "result": "Won 5–4" },
+    { "date": "Thur 19 Mar 26", "opposition": "Hadley", "start": "19:30", "venue": "Home", "result": "Won 8–1" },
+    { "date": "Sun 12 Apr 26", "opposition": "Dunstable", "start": "19:00", "venue": "Dunstable Centre, Court Drive, Dunstable LU5 4JD", "result": "Lost 2–7" },
+    { "date": "Thur 23 Apr 26", "opposition": "Vauxhall", "start": "19:30", "venue": "Home", "result": "Lost 4–5" }
+  ]
+}

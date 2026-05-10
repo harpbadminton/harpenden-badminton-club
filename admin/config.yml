@@ -1,0 +1,174 @@
+backend:
+  name: github
+  repo: harpbadminton/harpenden-badminton-club
+  branch: main
+
+# No media uploads needed for this config
+media_folder: "assets/images"
+
+site_url: https://harpbadminton.github.io/harpenden-badminton-club
+
+collections:
+
+  # ─────────────────────────────────────────
+  # SEASON SETTINGS (updates index + schedule)
+  # ─────────────────────────────────────────
+  - name: "season"
+    label: "Season Settings"
+    files:
+      - name: "current_season"
+        label: "Current Season"
+        file: "_data/season.json"
+        fields:
+          - { label: "Season Label", name: "season_label", widget: "string", hint: "e.g. 2026–27" }
+          - { label: "Season Status", name: "season_status", widget: "select", options: ["Active", "Complete", "Pre-Season"], default: "Active" }
+          - { label: "Next Season Start", name: "next_season_start", widget: "string", hint: "e.g. September 2027" }
+          - { label: "Hero Badge Text", name: "hero_badge", widget: "string", hint: "e.g. 🏆 2 Teams are Champions this Season!" }
+          - { label: "Season Summary — Wins", name: "wins", widget: "number" }
+          - { label: "Season Summary — Losses", name: "losses", widget: "number" }
+          - { label: "Season Summary — Draws", name: "draws", widget: "number" }
+          - { label: "Season Summary — Played", name: "played", widget: "number" }
+          - { label: "Champions Text", name: "champions_text", widget: "string", hint: "e.g. Men's 1 and Ladies 1 are Champions!" }
+
+  # ─────────────────────────────────────────
+  # TEAMS (division names, captains etc.)
+  # ─────────────────────────────────────────
+  - name: "teams"
+    label: "Teams"
+    files:
+
+      - name: "mens1"
+        label: "Men's 1 (Herts County)"
+        file: "_data/teams/mens1.json"
+        fields:
+          - { label: "Team Name", name: "name", widget: "string", default: "Men's 1" }
+          - { label: "League", name: "league", widget: "select", options: ["Hertfordshire County League", "SW Herts League"] }
+          - { label: "Division", name: "division", widget: "string", hint: "e.g. Division 3" }
+          - { label: "Captain", name: "captain", widget: "string" }
+          - { label: "Champions?", name: "champions", widget: "boolean", default: false }
+          - label: "Fixtures"
+            name: "fixtures"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "string", hint: "e.g. Thur 2 Oct 26" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Start Time", name: "start", widget: "string", hint: "e.g. 19:30" }
+              - { label: "Venue", name: "venue", widget: "string", hint: "Use 'Home' for home matches" }
+              - { label: "Result", name: "result", widget: "string", hint: "e.g. Won 7–2 / Lost 3–6 / Drew 4–4 / TBP" }
+
+      - name: "mens2"
+        label: "Men's 2 (SWHBL)"
+        file: "_data/teams/mens2.json"
+        fields:
+          - { label: "Team Name", name: "name", widget: "string", default: "Men's 2" }
+          - { label: "League", name: "league", widget: "select", options: ["Hertfordshire County League", "SW Herts League"] }
+          - { label: "Division", name: "division", widget: "string", hint: "e.g. Division 1" }
+          - { label: "Captain", name: "captain", widget: "string" }
+          - { label: "Champions?", name: "champions", widget: "boolean", default: false }
+          - label: "Fixtures"
+            name: "fixtures"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Start Time", name: "start", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Result", name: "result", widget: "string", hint: "e.g. Won 7–2 / Lost 3–6 / Drew 4–4 / TBP" }
+
+      - name: "ladies1"
+        label: "Ladies 1 (SWHBL)"
+        file: "_data/teams/ladies1.json"
+        fields:
+          - { label: "Team Name", name: "name", widget: "string", default: "Ladies 1" }
+          - { label: "League", name: "league", widget: "select", options: ["Hertfordshire County League", "SW Herts League"] }
+          - { label: "Division", name: "division", widget: "string" }
+          - { label: "Captain", name: "captain", widget: "string" }
+          - { label: "Champions?", name: "champions", widget: "boolean", default: false }
+          - label: "Fixtures"
+            name: "fixtures"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Start Time", name: "start", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Result", name: "result", widget: "string", hint: "e.g. Won 7–2 / Lost 3–6 / Drew 4–4 / TBP" }
+
+      - name: "mixed1"
+        label: "Mixed 1 (Herts County)"
+        file: "_data/teams/mixed1.json"
+        fields:
+          - { label: "Team Name", name: "name", widget: "string", default: "Mixed 1" }
+          - { label: "League", name: "league", widget: "select", options: ["Hertfordshire County League", "SW Herts League"] }
+          - { label: "Division", name: "division", widget: "string" }
+          - { label: "Captain", name: "captain", widget: "string" }
+          - { label: "Champions?", name: "champions", widget: "boolean", default: false }
+          - label: "Fixtures"
+            name: "fixtures"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Start Time", name: "start", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Result", name: "result", widget: "string", hint: "e.g. Won 7–2 / Lost 3–6 / Drew 4–4 / TBP" }
+
+      - name: "mixed2"
+        label: "Mixed 2 (SWHBL)"
+        file: "_data/teams/mixed2.json"
+        fields:
+          - { label: "Team Name", name: "name", widget: "string", default: "Mixed 2" }
+          - { label: "League", name: "league", widget: "select", options: ["Hertfordshire County League", "SW Herts League"] }
+          - { label: "Division", name: "division", widget: "string" }
+          - { label: "Captain", name: "captain", widget: "string" }
+          - { label: "Champions?", name: "champions", widget: "boolean", default: false }
+          - label: "Fixtures"
+            name: "fixtures"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Start Time", name: "start", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Result", name: "result", widget: "string", hint: "e.g. Won 7–2 / Lost 3–6 / Drew 4–4 / TBP" }
+
+      - name: "mensfour"
+        label: "Men's Four (SWHBL)"
+        file: "_data/teams/mensfour.json"
+        fields:
+          - { label: "Team Name", name: "name", widget: "string", default: "Men's Four" }
+          - { label: "League", name: "league", widget: "select", options: ["Hertfordshire County League", "SW Herts League"] }
+          - { label: "Division", name: "division", widget: "string" }
+          - { label: "Captain", name: "captain", widget: "string" }
+          - { label: "Champions?", name: "champions", widget: "boolean", default: false }
+          - label: "Fixtures"
+            name: "fixtures"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Start Time", name: "start", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Result", name: "result", widget: "string", hint: "e.g. Won 7–2 / Lost 3–6 / Drew 4–4 / TBP" }
+
+  # ─────────────────────────────────────────
+  # RECENT RESULTS (shown on homepage)
+  # ─────────────────────────────────────────
+  - name: "recent_results"
+    label: "Recent Results (Homepage)"
+    files:
+      - name: "recent"
+        label: "Recent Results"
+        file: "_data/recent_results.json"
+        fields:
+          - label: "Results"
+            name: "results"
+            widget: "list"
+            max: 6
+            fields:
+              - { label: "Team", name: "team", widget: "string", hint: "e.g. Men's 1" }
+              - { label: "Opposition", name: "opposition", widget: "string" }
+              - { label: "Home Score", name: "home_score", widget: "number" }
+              - { label: "Away Score", name: "away_score", widget: "number" }
+              - { label: "Date", name: "date", widget: "string", hint: "e.g. 30 Apr 2026" }
+              - { label: "Outcome", name: "outcome", widget: "select", options: ["win", "loss", "draw"] }

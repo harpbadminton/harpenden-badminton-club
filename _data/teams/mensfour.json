@@ -1,0 +1,23 @@
+{
+  "name": "Men's Four",
+  "league": "SW Herts League",
+  "division": "Division 1",
+  "captain": "Goutham Ramasamy",
+  "champions": false,
+  "fixtures": [
+    { "date": "Thur 2 Oct 25", "opposition": "Kites B", "start": "19:30", "venue": "Home", "result": "Lost 2–4" },
+    { "date": "Thur 16 Oct 25", "opposition": "Vauxhall", "start": "19:30", "venue": "Home", "result": "Lost 1–5" },
+    { "date": "Wed 12 Nov 25", "opposition": "Harpenden Racqueteers", "start": "20:00", "venue": "Harpenden Leisure Centre, Amenbury Lane, Harpenden AL5 2HU", "result": "Drew 3–3" },
+    { "date": "Sun 16 Nov 25", "opposition": "Smashers", "start": "19:00", "venue": "Mount Grace School, 46 Mount Grace Rd, Potters Bar EN6 1RB", "result": "Lost 1–5" },
+    { "date": "Thur 11 Dec 25", "opposition": "Hawks", "start": "19:30", "venue": "Home", "result": "Drew 3–3" },
+    { "date": "Sun 11 Jan 26", "opposition": "Kites A", "start": "15:00", "venue": "Gosling Sports Park, Stanborough Rd, Welwyn Garden City AL8 6XE", "result": "Lost 0–6" },
+    { "date": "Mon 2 Feb 26", "opposition": "Kites B", "start": "20:00", "venue": "Gosling Sports Park, Stanborough Rd, Welwyn Garden City AL8 6XE", "result": "Lost 1–5" },
+    { "date": "Fri 6 Feb 26", "opposition": "Abbey", "start": "19:45", "venue": "Haberdashers' Boys School, Butterfly Lane, Elstree WD6 3AF", "result": "Lost 0–6" },
+    { "date": "Sat 28 Feb 26", "opposition": "Smashers", "start": "11:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Lost 2–4" },
+    { "date": "Sat 14 Mar 26", "opposition": "Harpenden Racqueteers", "start": "10:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Drew 3–3" },
+    { "date": "Thur 26 Mar 26", "opposition": "Kites A", "start": "19:30", "venue": "Home", "result": "Won 5–1" },
+    { "date": "Fri 10 Apr 26", "opposition": "Vauxhall", "start": "20:00", "venue": "Venue 360, 20 Gipsy Lane, Luton LU1 3JH", "result": "Drew 3–3" },
+    { "date": "Sat 18 Apr 26", "opposition": "Abbey", "start": "11:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Won 6–0" },
+    { "date": "Fri 24 Apr 26", "opposition": "Hawks", "start": "19:00", "venue": "Hertfordshire Sports Village, de Havilland Campus, Hatfield AL10 9EU", "result": "Lost 2–4" }
+  ]
+}

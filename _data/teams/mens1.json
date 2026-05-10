@@ -1,0 +1,17 @@
+{
+  "name": "Men's 1",
+  "league": "Hertfordshire County League",
+  "division": "Division 3",
+  "captain": "Simon Casey",
+  "champions": true,
+  "fixtures": [
+    { "date": "Sun 5 Oct 25", "opposition": "Smashers", "start": "19:00", "venue": "Mount Grace School, 46 Mount Grace Rd, Potters Bar EN6 1RB", "result": "Won 7–2" },
+    { "date": "Thur 9 Oct 25", "opposition": "Epping", "start": "19:30", "venue": "Home", "result": "Won 8–1" },
+    { "date": "Thur 27 Nov 25", "opposition": "Bishops Stortford", "start": "19:30", "venue": "Home", "result": "Won 8–1" },
+    { "date": "Thur 15 Jan 26", "opposition": "Smashers", "start": "19:30", "venue": "Home", "result": "Won 9–0" },
+    { "date": "Sun 15 Feb 26", "opposition": "Ware 2", "start": "10:00", "venue": "Wodson Park Sports Centre, Wadesmill Rd, Ware SG12 0UQ", "result": "Won 6–3" },
+    { "date": "Wed 25 Mar 26", "opposition": "Bishops Stortford", "start": "20:00", "venue": "Avanti Grange School, Newland Ave, Bishops Stortford CM23 2BD", "result": "Won 5–4" },
+    { "date": "Wed 15 Apr 26", "opposition": "Epping", "start": "19:00", "venue": "Epping Sports Centre, Hemnall St, Epping CM16 4LU", "result": "Won 6–3" },
+    { "date": "Thur 30 Apr 26", "opposition": "Ware 2", "start": "19:30", "venue": "Home", "result": "Won 7–2" }
+  ]
+}

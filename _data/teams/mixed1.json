@@ -1,0 +1,19 @@
+{
+  "name": "Mixed 1",
+  "league": "Hertfordshire County League",
+  "division": "Division 2",
+  "captain": "Jane Davey",
+  "champions": false,
+  "fixtures": [
+    { "date": "Thur 30 Oct 25", "opposition": "Hadley", "start": "19:30", "venue": "Home", "result": "Won 6–3" },
+    { "date": "Thur 6 Nov 25", "opposition": "Hertford", "start": "19:30", "venue": "Home", "result": "Won 7–2" },
+    { "date": "Thur 20 Nov 25", "opposition": "Ware 3", "start": "19:30", "venue": "Home", "result": "Won 6–3" },
+    { "date": "Sun 30 Nov 25", "opposition": "Masters 3", "start": "19:00", "venue": "Hitchin Boys School Sports Centre, Grammar School Walk, Hitchin SG5 1JB", "result": "Won 5–4" },
+    { "date": "Thur 29 Jan 26", "opposition": "Hadley", "start": "20:00", "venue": "The Drill Hall, 1 Old Park Avenue, Enfield EN2 6PJ", "result": "Lost 2–7" },
+    { "date": "Sun 22 Feb 26", "opposition": "Hertford", "start": "19:30", "venue": "Ware Drill Hall, 17 Amwell End, Ware SG12 9HP", "result": "Won 8–1" },
+    { "date": "Thur 26 Feb 26", "opposition": "Masters 3", "start": "19:30", "venue": "Home", "result": "Won 6–3" },
+    { "date": "Sat 21 Mar 26", "opposition": "Bishops Stortford", "start": "12:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Won 7–2" },
+    { "date": "Sun 29 Mar 26", "opposition": "Ware 3", "start": "10:00", "venue": "Wodson Park Sports Centre, Wadesmill Rd, Ware SG12 0UQ", "result": "Lost 4–5" },
+    { "date": "Wed 1 Apr 26", "opposition": "Bishops Stortford", "start": "20:00", "venue": "Avanti Grange School, Newland Ave, Bishops Stortford CM23 2BD", "result": "Won 7–2" }
+  ]
+}

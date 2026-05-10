@@ -1,0 +1,15 @@
+{
+  "name": "Ladies 1",
+  "league": "SW Herts League",
+  "division": "Division 1",
+  "captain": "Amanda Evans",
+  "champions": true,
+  "fixtures": [
+    { "date": "Sun 21 Sep 25", "opposition": "Smashers", "start": "19:00", "venue": "Mount Grace School, 46 Mount Grace Rd, Potters Bar EN6 1RB", "result": "Won 5–1" },
+    { "date": "Wed 21 Jan 26", "opposition": "Harpenden Racqueteers", "start": "20:00", "venue": "Harpenden Leisure Centre, Amenbury Lane, Harpenden AL5 2HU", "result": "Won 4–2" },
+    { "date": "Fri 6 Feb 26", "opposition": "Abbey", "start": "19:45", "venue": "Haberdashers' Boys School, Butterfly Lane, Elstree WD6 3AF", "result": "Won 6–0" },
+    { "date": "Sat 28 Feb 26", "opposition": "Smashers", "start": "11:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Drew 3–3" },
+    { "date": "Sat 14 Mar 26", "opposition": "Harpenden Racqueteers", "start": "10:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Won 6–0" },
+    { "date": "Sat 18 Apr 26", "opposition": "Abbey", "start": "11:00", "venue": "Rickmansworth School, Scots Hill, Croxley Green WD3 3AQ", "result": "Won 4–2" }
+  ]
+}

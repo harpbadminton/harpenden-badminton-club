@@ -1,0 +1,8 @@
+# Harpenden Badminton Club - robots.txt
+# Allow all crawlers to index the site except gallery images
+
+User-agent: *
+Disallow: /assets/images/gallery/
+
+# Allow everything else
+Allow: /
